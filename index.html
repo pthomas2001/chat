@@ -20,7 +20,7 @@
 
 <body>
   
-  <div class="sidebar">
+  <div class="sidebar inline-block">
 
     <div class="sidebar__search-box">
       <input class="sidebar__search-box__input" type="text">
@@ -31,7 +31,7 @@
     <hr class="sidebar__hr">
 
 
-    <div class="flex-wrapper">
+    <div class="flex-wrapper space-evenly">
       <img class="sidebar__profile-img sidebar__profile-img--active" src="assets/user_avatar_01.png" alt="Amy Adams">
 
       <div>
@@ -47,7 +47,7 @@
     <hr class="sidebar__hr">
 
 
-    <div class="flex-wrapper">
+    <div class="flex-wrapper space-evenly">
       <img class="sidebar__profile-img" src="assets/user_avatar_02.png" alt="Marc">
 
       <div>
@@ -64,7 +64,7 @@
     <hr class="sidebar__hr">
 
 
-    <div class="flex-wrapper">
+    <div class="flex-wrapper space-evenly">
       <img class="sidebar__profile-img" src="assets/user_avatar_03.png" alt="Jacob">
 
       <div>
@@ -80,7 +80,7 @@
     <hr class="sidebar__hr">
 
 
-    <div class="flex-wrapper">
+    <div class="flex-wrapper space-evenly">
       <img class="sidebar__profile-img" src="assets/user_avatar_04.png" alt="Chris Smith">
 
       <div>
@@ -96,7 +96,7 @@
     <hr class="sidebar__hr">
 
 
-    <div class="flex-wrapper">
+    <div class="flex-wrapper space-evenly">
       <img class="sidebar__profile-img" src="assets/user_avatar_05.png" alt="Mia Wong">
 
       <div>
@@ -112,7 +112,7 @@
     <hr class="sidebar__hr">
 
 
-    <div class="flex-wrapper">
+    <div class="flex-wrapper space-evenly">
       <img class="sidebar__profile-img" src="assets/user_avatar_06.png" alt="Jane">
 
       <div>
@@ -136,19 +136,104 @@
 
 
 
-  <div class="main">
+  <div class="main inline-block">
 
-    <div class="header">
+    <div class="header flex-wrapper align-items-center">
+
       <h5 class="header__partner-name">Amy Adams</h5>
       <img class="header__logo" src="assets/logo_50.svg" alt="Site logo">
       <h6 class="header__student-name">Student Name</h6>
       <img class="header__profile-img" src="assets/user_avatar_07.png" alt="Student Name profile image">
-    </div>
+
+    </div> <!-- /.header -->
+
+
 
     <div class="conversation">
 
-    </div>
+      <h6 class="conversation__time">Amy, 11:37</h6>
+
+      <img class="inline-block" src="assets/user_avatar_01.png" alt="Amy Adams">
+
+      <div class="inline-block">
+        <div class="flex-wrapper flex-column space-between">
+
+          <p class="conversation__message">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+          </p>
+          <p class="conversation__message">
+            At vero eos et accusam et justo duo dolores et ea rebum.
+          </p>
+
+        </div>
+      </div>
+
+
+      <h6 class="conversation__time">11:40</h6>
+
+      <div class="flex-wrapper align-items-end">
+
+        <img class="inline-block" src="assets/user_avatar_07.png" alt="Student Name">
+
+        <div class="inline-block">
+          <div class="flex-wrapper flex-column space-between">
+
+            <p class="conversation__message conversation__message--student-name">
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+
+
+      <h6 class="conversation__time">Amy, 12:04</h6>
+
+      <img class="inline-block" src="assets/user_avatar_01.png" alt="Amy Adams">
+
+      <div class="inline-block">
+        <div class="flex-wrapper flex-column space-between">
+
+          <p class="conversation__message">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+          </p>
+
+        </div>
+      </div>
+
+
+      <h6 class="conversation__time">11:40</h6>
+
+      <div class="flex-wrapper align-items-end">
+
+        <img class="inline-block" src="assets/user_avatar_07.png" alt="Student Name">
+
+        <div class="inline-block">
+          <div class="flex-wrapper flex-column space-between">
+
+            <p class="conversation__message conversation__message--student-name">
+              At vero eos et accusam et justo duo dolores et ea rebum.
+            </p>
+            <p class="conversation__message conversation__message--student-name">
+              Stet clita kasd gubergren.
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+
+
+      <h6 class="conversation__typing">Amy is typing...</h6>
+      
+
+
+    </div> <!-- /.conversation -->
 
   </div> <!-- /.main -->
+
 </body>
 </html>
