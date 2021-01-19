@@ -1,0 +1,90 @@
+/**
+* This project contains the following stylesheets:
+*
+* base.css
+* layout.css
+* components.css
+*/
+
+
+
+
+
+/**
+* This file contains:
+*
+* BOX-SIZING
+*
+* GLOBAL RULES
+*   h6
+*   font-family
+*
+* HELPERS
+*   inline-block
+*   flexbox
+*
+* GLOBAL COLORS
+*   variables
+*/
+
+
+
+
+
+/*------------------------------------*\
+  #BOX-SIZING
+\*------------------------------------*/
+
+* { box-sizing: border-box }
+
+
+
+
+
+/*------------------------------------*\
+  #GLOBAL RULES
+\*------------------------------------*/
+
+h6 {
+  font-size:      12px;
+  font-weight:    bold;
+  letter-spacing: 2.4px;
+  text-transform: uppercase
+}
+
+
+body { font-family: "Montserrat" }
+
+
+
+
+
+/*------------------------------------*\
+  #HELPERS
+\*------------------------------------*/
+
+.inline-block { display: inline-block }
+
+
+.flex-wrapper { display: flex }
+
+.flex-column { flex-direction: column }
+
+.space-between { justify-content: space-between }
+
+.space-evenly { justify-content: space-evenly }
+
+
+
+
+
+/*------------------------------------*\
+  #GLOBAL COLORS
+\*------------------------------------*/
+
+:root {
+  --primary-color:      #6200EA;
+  --secondary-color:    #FFFFFF;
+  --input-color:        #F4F3F5;
+  --placeholder-color:  rgb(33,17,56,0.25);
+}
