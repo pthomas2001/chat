@@ -1,0 +1,66 @@
+/**
+* The height, width, paddings and margins of the containers.
+*/
+
+
+
+
+
+/**
+* This file contains:
+*
+* SIDEBAR
+*
+* MAIN
+*   header
+*   conversation
+*   sending-message
+*/
+
+
+
+
+
+/*------------------------------------*\
+  #SIDEBAR
+\*------------------------------------*/
+
+/**
+* Extend ´.sidebar´ in components.css
+*/
+
+.sidebar { width: 400px }
+
+
+
+
+
+/*------------------------------------*\
+  #MAIN
+\*------------------------------------*/
+
+/**
+* Extend ´.header´, ´.conversation´ and ´.sending-message´
+* in components.css
+*/
+
+.main { width: 1200px }
+
+  .header {
+    height:         80px;
+    padding-right:  20px;
+    padding-left:   30px;
+  }
+
+    .header__profile-container { width: 188px }
+
+  .conversation {
+    height:         680px;
+    padding:        40px 60px
+  }
+
+  .sending-message {
+    height:         140px;
+    padding:        20px
+  }
+

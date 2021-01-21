@@ -17,7 +17,7 @@
 *
 * GLOBAL RULES
 *   h6
-*   font-family
+*   body
 *
 * HELPERS
 *   inline-block
@@ -53,7 +53,11 @@ h6 {
 }
 
 
-body { font-family: "Montserrat" }
+body {
+  font-family: "Montserrat";
+  height:       900px;
+  width:        1600px
+}
 
 
 
