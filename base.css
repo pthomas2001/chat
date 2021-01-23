@@ -11,7 +11,7 @@
 
 
 /**
-* This file contains:
+* This stylesheet contains:
 *
 * BOX-SIZING
 *
@@ -59,6 +59,8 @@ body {
   width:        1600px
 }
 
+*::placeholder { font-family: "Montserrat" }
+
 
 
 
@@ -78,6 +80,8 @@ body {
 
 .space-evenly { justify-content: space-evenly }
 
+.align-items-center { align-items: center }
+
 
 
 
@@ -87,8 +91,10 @@ body {
 \*------------------------------------*/
 
 :root {
-  --primary-color:      #6200EA;
-  --secondary-color:    #FFFFFF;
-  --input-color:        #F4F3F5;
-  --placeholder-color:  rgb(33,17,56,0.25);
+  --primary-color:          #6200EA;
+  --secondary-color:        #FFFFFF;
+  --dark-paragraph-color:   #211138;
+  --light-paragraph-color:  #FFFFFF;
+  --input-color:            #F4F3F5;
+  --placeholder-color:      rgb(33,17,56,0.3);
 }

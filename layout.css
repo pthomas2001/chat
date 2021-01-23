@@ -7,13 +7,13 @@
 
 
 /**
-* This file contains:
+* This stylesheet contains:
 *
 * SIDEBAR
 *
 * MAIN
 *   header
-*   conversation
+*   chat
 *   sending-message
 */
 
@@ -40,7 +40,7 @@
 \*------------------------------------*/
 
 /**
-* Extend ´.header´, ´.conversation´ and ´.sending-message´
+* Extend ´.header´, ´.chat´ and ´.sending-message´
 * in components.css
 */
 
@@ -54,7 +54,7 @@
 
     .header__profile-container { width: 188px }
 
-  .conversation {
+  .chat {
     height:         680px;
     padding:        40px 60px
   }
@@ -63,4 +63,3 @@
     height:         140px;
     padding:        20px
   }
-

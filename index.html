@@ -22,21 +22,21 @@
   
   <div class="sidebar inline-block">
 
-    <div class="sidebar__search-box">
-      <input class="sidebar__search-box__input" type="text">
-      <i class="sidebar__search-box__icon fas fa-search"></i>
+    <div class="sidebar__search-box search box">
+      <input class="search-box__input" type="text" placeholder="Search">
+      <i class="search-box__icon fas fa-search"></i>
     </div>
     
 
     <hr class="sidebar__hr">
 
 
-    <div class="flex-wrapper space-evenly">
+    <div class="flex-wrapper space-evenly align-items-center">
       <div class="sidebar__profile-img sidebar__profile-img--amy-adams sidebar__profile-img--active"></div>
 
-      <div>
-        <h6 class="sidebar__name">Amy Adams</h6>
-        <p class="sidebar__message">
+      <div class="sidebar__conversation conversation">
+        <h6 class="conversation__name">Amy Adams</h6>
+        <p class="conversation__message">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
         </p>
       </div>
@@ -47,12 +47,12 @@
     <hr class="sidebar__hr">
 
 
-    <div class="flex-wrapper space-evenly">
+    <div class="flex-wrapper space-evenly align-items-center">
       <div class="sidebar__profile-img sidebar__profile-img--marc"></div>
 
-      <div>
-        <h6 class="sidebar__name">Marc</h6>
-        <p class="sidebar__message">
+      <div class="sidebar__conversation conversation">
+        <h6 class="conversation__name">Marc</h6>
+        <p class="conversation__message">
           Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
           sed diam voluptua.
         </p>
@@ -64,12 +64,12 @@
     <hr class="sidebar__hr">
 
 
-    <div class="flex-wrapper space-evenly">
+    <div class="flex-wrapper space-evenly align-items-center">
       <div class="sidebar__profile-img sidebar__profile-img--jacob"></div>
 
-      <div>
-        <h6 class="sidebar__name">Jacob</h6>
-        <p class="sidebar__message">
+      <div class="sidebar__conversation conversation">
+        <h6 class="conversation__name">Jacob</h6>
+        <p class="conversation__message">
           😀
         </p>
       </div>
@@ -80,12 +80,12 @@
     <hr class="sidebar__hr">
 
 
-    <div class="flex-wrapper space-evenly">
+    <div class="flex-wrapper space-evenly align-items-center">
       <div class="sidebar__profile-img sidebar__profile-img--chris-smith"></div>
 
-      <div>
-        <h6 class="sidebar__name">Chris Smith</h6>
-        <p class="sidebar__message">
+      <div class="sidebar__conversation conversation">
+        <h6 class="conversation__name">Chris Smith</h6>
+        <p class="conversation__message">
           At vero eos et accusam et justo duo dolores et ea rebum.
         </p>
       </div>
@@ -96,12 +96,12 @@
     <hr class="sidebar__hr">
 
 
-    <div class="flex-wrapper space-evenly">
+    <div class="flex-wrapper space-evenly align-items-center">
       <div class="sidebar__profile-img sidebar__profile-img--mia-wong"></div>
 
-      <div>
-        <h6 class="sidebar__name">Mia Wong</h6>
-        <p class="sidebar__message">
+      <div class="sidebar__conversation conversation">
+        <h6 class="conversation__name">Mia Wong</h6>
+        <p class="conversation__message">
           Stet clita kasd gubergren.
         </p>
       </div>
@@ -112,12 +112,12 @@
     <hr class="sidebar__hr">
 
 
-    <div class="flex-wrapper space-evenly">
+    <div class="flex-wrapper space-evenly align-items-center">
       <div class="sidebar__profile-img sidebar__profile-img--jane"></div>
 
-      <div>
-        <h6 class="sidebar__name">Jane</h6>
-        <p class="sidebar__message">
+      <div class="sidebar__conversation conversation">
+        <h6 class="conversation__name">Jane</h6>
+        <p class="conversation__message">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
         </p>
       </div>
@@ -152,21 +152,21 @@
 
 
 
-    <div class="conversation">
+    <div class="chat">
 
 
-      <h6 class="conversation__time">Amy, 11:37</h6>
+      <h6 class="chat__time">Amy, 11:37</h6>
 
-      <div class="conversation__profile-img conversation__profile-img--amy-adams inline-block"></div>
+      <div class="chat__profile-img chat__profile-img--amy-adams inline-block"></div>
 
       <div class="inline-block">
         <div class="flex-wrapper flex-column space-between">
 
-          <p class="conversation__message">
+          <p class="chat__message">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
           </p>
-          <p class="conversation__message">
+          <p class="chat__message">
             At vero eos et accusam et justo duo dolores et ea rebum.
           </p>
 
@@ -174,16 +174,16 @@
       </div>
 
 
-      <h6 class="conversation__time">11:40</h6>
+      <h6 class="chat__time">11:40</h6>
 
       <div class="flex-wrapper align-items-end">
 
-        <div class="conversation__profile-img conversation__profile-img--student-name inline-block"></div>
+        <div class="chat__profile-img chat__profile-img--student-name inline-block"></div>
 
         <div class="inline-block">
           <div class="flex-wrapper flex-column space-between">
 
-            <p class="conversation__message conversation__message--student-name">
+            <p class="chat__message chat__message--student-name">
               Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
             </p>
 
@@ -193,14 +193,14 @@
       </div>
 
 
-      <h6 class="conversation__time">Amy, 12:04</h6>
+      <h6 class="chat__time">Amy, 12:04</h6>
 
-      <div class="conversation__profile-img conversation__profile-img--amy-adams inline-block"></div>
+      <div class="chat__profile-img chat__profile-img--amy-adams inline-block"></div>
 
       <div class="inline-block">
         <div class="flex-wrapper flex-column space-between">
 
-          <p class="conversation__message">
+          <p class="chat__message">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
           </p>
@@ -209,19 +209,19 @@
       </div>
 
 
-      <h6 class="conversation__time">11:40</h6>
+      <h6 class="chat__time">11:40</h6>
 
       <div class="flex-wrapper align-items-end">
 
-        <div class="conversation__profile-img conversation__profile-img--student-name inline-block"></div>
+        <div class="chat__profile-img chat__profile-img--student-name inline-block"></div>
 
         <div class="inline-block">
           <div class="flex-wrapper flex-column space-between">
 
-            <p class="conversation__message conversation__message--student-name">
+            <p class="chat__message chat__message--student-name">
               At vero eos et accusam et justo duo dolores et ea rebum.
             </p>
-            <p class="conversation__message conversation__message--student-name">
+            <p class="chat__message chat__message--student-name">
               Stet clita kasd gubergren.
             </p>
 
@@ -231,10 +231,10 @@
       </div>
 
 
-      <h6 class="conversation__typing">Amy is typing...</h6>
+      <h6 class="chat__typing">Amy is typing...</h6>
 
 
-    </div> <!-- /.conversation -->
+    </div> <!-- /.chat -->
 
 
 
