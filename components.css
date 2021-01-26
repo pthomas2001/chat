@@ -35,11 +35,6 @@
       height:           50px
     }
 
-      .search-box__input::placeholder {
-        color:            var(--placeholder-color);
-        font-weight:      bold
-      }
-
     .search-box__icon {
       color:            var(--placeholder-color);
       font-size:        15.8px;
@@ -47,14 +42,28 @@
     }
 
 
-  .sidebar__hr { border: .1px solid #F4F3F5 }
+  .sidebar__hr {
+    border:           .1px solid #F4F3F5;
+    margin:           15px 0;
+  }
 
 
   .sidebar__profile-img {
     width:            50px;
     height:           50px;
-    margin:           5px;
     border-radius:    100%
+  }
+
+  .sidebar__profile-img--active::before {
+    content:          "";
+    display:          inline-block;
+    position:         relative;
+    bottom:           15px;
+    right:            15px;
+    background:       var(--primary-color);
+    width:            5px;
+    height:           80px;
+
   }
 
   .sidebar__profile-img--amy-adams {
@@ -110,10 +119,17 @@
     }
 
   .sidebar__add-btn {
+    display:          inline-block;
     color:            var(--primary-color);
+    font-size:        12px;
+    font-weight:      bold;
+    letter-spacing:   2.4px;
+    text-transform:   uppercase;
     text-decoration:  none;
     text-align:       center;
     padding:          18px;
     border:           2px solid var(--primary-color);
-    border-radius:    100%;
+    border-radius:    9999px;
+    margin:           0 15px;
+    width:            calc(100% - 30px)
   }

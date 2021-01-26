@@ -29,7 +29,10 @@
 * Extend ´.sidebar´ in components.css
 */
 
-.sidebar { width: 400px }
+.sidebar {
+  width:            400px;
+  height:           100%
+}
 
 
 

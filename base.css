@@ -16,8 +16,9 @@
 * BOX-SIZING
 *
 * GLOBAL RULES
-*   h6
 *   body
+*   h6
+*   ::placeholder
 *
 * HELPERS
 *   inline-block
@@ -45,6 +46,13 @@
   #GLOBAL RULES
 \*------------------------------------*/
 
+body {
+  font-family:    "Montserrat";
+  height:         900px;
+  width:          1600px
+}
+
+
 h6 {
   font-size:      12px;
   font-weight:    bold;
@@ -53,13 +61,11 @@ h6 {
 }
 
 
-body {
-  font-family: "Montserrat";
-  height:       900px;
-  width:        1600px
+*::placeholder {
+  font-family:    "Montserrat";
+  color:          var(--placeholder-color);
+  font-weight:    bold
 }
-
-*::placeholder { font-family: "Montserrat" }
 
 
 
