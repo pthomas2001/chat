@@ -30,8 +30,8 @@
 */
 
 .sidebar {
-  width:            400px;
-  height:           100%
+  width:    400px;
+  height:   100%;
 }
 
 
@@ -47,10 +47,14 @@
 * in components.css
 */
 
-.main { width: 1200px }
+.main {
+  float:    right;
+  width:    1200px;
+}
 
   .header {
     height:         80px;
+    width:          100%;
     padding-right:  20px;
     padding-left:   30px;
   }
