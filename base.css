@@ -89,6 +89,21 @@ h6 {
 .align-items-center { align-items: center }
 
 
+.float-right { float: right }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+
+.right-position {
+  position: absolute;
+  right: 0
+}
+
+
 
 
 

@@ -171,3 +171,47 @@
     width:            40px;
     height:           40px
   }
+
+
+
+
+
+/*------------------------------------*\
+  #CHAT
+\*------------------------------------*/
+
+/**
+* These rules extend ´.chat´ in layout.css
+*/
+
+.chat { background: #F4F3F5 }
+
+
+  .chat__time {
+    color:          #B2ACBA;
+    margin:           10px 60px 5px
+  }
+
+  .chat__time--student-name { text-align: end }
+
+
+  .chat__profile-img {
+    background:       url(assets/user_avatar_01.png)
+                        no-repeat center;
+    background-size:  cover;
+    border-radius:    9999px;
+    width:            50px;
+    height:           50px;
+    margin-right:     10px
+  }
+
+  .chat__profile-img--student-name {
+    background:       url(assets/user_avatar_07.png)
+                        no-repeat center;
+    background-size:  cover;
+    float:            right
+  }
+
+  .chat__message {
+    max-width: 600px
+  }
