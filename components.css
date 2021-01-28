@@ -26,14 +26,7 @@
     margin:           15px;
   }
 
-    .search-box__input {
-      background:       var(--input-color);
-      padding:          16px 0 16px 24px;
-      border:           0;
-      outline:          0;
-      width:            calc(100% - 50px);
-      height:           50px
-    }
+    .search-box__input { width: calc(100% - 50px) }
 
     .search-box__icon {
       color:            var(--placeholder-color);
@@ -183,7 +176,7 @@
 * These rules extend ´.chat´ in layout.css
 */
 
-.chat { background: #F4F3F5 }
+.chat { background: var(--input-color) }
 
 
   .chat__time {
@@ -234,4 +227,42 @@
   .chat__typing {
     color:          #B2ACBA;
     margin-left:      60px
+  }
+
+
+
+
+
+/*------------------------------------*\
+  #SENDING-MESSAGE
+\*------------------------------------*/
+
+/**
+* These rules extend ´.sending-message´ in layout.css
+*/
+
+.sending-message {
+  background:    var(--secondary-color);
+  border-left:   .1px solid var(--input-color)
+}
+
+  .sending-message__writing-message {
+    background:       var(--input-color);
+    height:           100px
+  }
+
+    .writing-message__textarea { width: 930px }
+
+    .writing-message__icon-container {
+      width:              130px;
+      padding:            15px 0;
+      color:              var(--placeholder-color);
+      font-size:          20px
+    }
+
+  .sending-message__send-btn {
+    width:            50px;
+    height:           50px;
+    font-size:        20px;
+    margin-left:      10px
   }

@@ -18,6 +18,7 @@
 * GLOBAL RULES
 *   body
 *   h6
+*   input, textarea
 *   ::placeholder
 *
 * HELPERS
@@ -61,10 +62,26 @@ h6 {
 }
 
 
-*::placeholder {
+input, textarea {
+  background:     var(--input-color);
+  padding:        16px 0 16px 24px;
+  border:         0;
+  outline:        0;
+  appearance:     textarea
+}
+
+input::placeholder, textarea::placeholder {
   font-family:    "Montserrat";
   color:          var(--placeholder-color);
   font-weight:    bold
+}
+
+
+button {
+  color:          var(--secondary-color);
+  background:     var(--primary-color);
+  border:         0;
+  border-radius:  9999px
 }
 
 
