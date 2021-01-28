@@ -88,20 +88,10 @@ h6 {
 
 .align-items-center { align-items: center }
 
+.row-reverse { flex-direction: row-reverse }
+
 
 .float-right { float: right }
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both
-}
-
-
-.right-position {
-  position: absolute;
-  right: 0
-}
 
 
 
@@ -112,10 +102,12 @@ h6 {
 \*------------------------------------*/
 
 :root {
-  --primary-color:          #6200EA;
-  --secondary-color:        #FFFFFF;
-  --dark-paragraph-color:   #211138;
-  --light-paragraph-color:  #FFFFFF;
-  --input-color:            #F4F3F5;
-  --placeholder-color:      rgb(33,17,56,0.3);
+  --primary-color:              #6200EA;
+  --secondary-color:            #FFFFFF;
+  --dark-paragraph-color:       #211138;
+  --light-paragraph-color:      #FFFFFF;
+  --dark-paragraph-background:  #B2ACBA;
+  --light-paragraph-background: #FFFFFF;
+  --input-color:                #F4F3F5;
+  --placeholder-color:          rgb(33,17,56,0.3);
 }

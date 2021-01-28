@@ -128,7 +128,8 @@
     <hr class="sidebar__hr">
 
 
-    <a class="sidebar__add-btn" href="#">Add new contact</a>
+    <a class="sidebar__add-btn inline-block" href="#">Add new contact</a>
+    <!-- Headings shouldn't be embed to anchors!! -->
 
   </div> <!-- /.sidebar -->
 
@@ -157,27 +158,29 @@
 
       <h6 class="chat__time">Amy, 11:37</h6>
 
-      <div class="chat__profile-img chat__profile-img--amy-adams inline-block"></div>
+      <div class="flex-wrapper">
+        <div class="chat__profile-img chat__profile-img--amy-adams inline-block"></div>
 
-      <div class="inline-block">
-        <div class="flex-wrapper flex-column space-between">
+        <div class="inline-block">
+          <div class="flex-wrapper flex-column space-between">
 
-          <p class="chat__message">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
-          </p>
-          <p class="chat__message">
-            At vero eos et accusam et justo duo dolores et ea rebum.
-          </p>
+            <p class="chat__message">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+            </p>
+            <p class="chat__message inline-block">
+              At vero eos et accusam et justo duo dolores et ea rebum.
+            </p>
 
+          </div>
         </div>
       </div>
+      
 
 
-      <h6 class="chat__time">11:40</h6>
+      <h6 class="chat__time chat__time--student-name">11:40</h6>
 
-      <div class="flex-wrapper align-items-end">
-
+      <div class="flex-wrapper row-reverse">
         <div class="chat__profile-img chat__profile-img--student-name inline-block"></div>
 
         <div class="inline-block">
@@ -195,23 +198,28 @@
 
       <h6 class="chat__time">Amy, 12:04</h6>
 
-      <div class="chat__profile-img chat__profile-img--amy-adams inline-block"></div>
+      <div class="flex-wrapper">
+        <div class="chat__profile-img chat__profile-img--amy-adams inline-block"></div>
 
-      <div class="inline-block">
-        <div class="flex-wrapper flex-column space-between">
+        <div class="inline-block">
+          <div class="flex-wrapper flex-column space-between">
 
-          <p class="chat__message">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
-          </p>
+            <p class="chat__message">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+            </p>
 
+          </div>
         </div>
+
       </div>
 
+      
 
-      <h6 class="chat__time">11:40</h6>
 
-      <div class="flex-wrapper align-items-end">
+      <h6 class="chat__time chat__time--student-name">12:06</h6>
+
+      <div class="flex-wrapper row-reverse">
 
         <div class="chat__profile-img chat__profile-img--student-name inline-block"></div>
 

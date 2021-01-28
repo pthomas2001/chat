@@ -124,7 +124,6 @@
 
 
   .sidebar__add-btn {
-    display:          inline-block;
     color:            var(--primary-color);
     font-size:        12px;
     font-weight:      bold;
@@ -189,7 +188,7 @@
 
   .chat__time {
     color:          #B2ACBA;
-    margin:           10px 60px 5px
+    margin:           0 60px 5px
   }
 
   .chat__time--student-name { text-align: end }
@@ -209,9 +208,30 @@
     background:       url(assets/user_avatar_07.png)
                         no-repeat center;
     background-size:  cover;
-    float:            right
+    margin-right:     0;
+    margin-left:      10px
   }
 
+
   .chat__message {
-    max-width: 600px
+    color:            var(--dark-paragraph-color);
+    font-size:        14px;
+    line-height:      1.5;
+    background:       var(--light-paragraph-background);
+    max-width:        37.5vw;
+    padding:          20px;
+    border-radius:    0 15px 15px 15px;
+    margin-bottom:    10px
+  }
+
+  .chat__message--student-name {
+    color:            var(--light-paragraph-color);
+    background:       var(--dark-paragraph-background);
+    border-radius:    15px 15px 0 15px
+  }
+
+
+  .chat__typing {
+    color:          #B2ACBA;
+    margin-left:      60px
   }
